@@ -27,3 +27,5 @@ const useFetchProducts = (url) => {
 
   return { products, loading, error };
 };
+
+export default useFetchProducts;
